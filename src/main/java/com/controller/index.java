@@ -55,13 +55,19 @@ public class index {
         return "index";
 }
     @RequestMapping("/login")
-    public String ViewLogin(Model mode,Model mode2){
+    public String ViewLogin(Model mode){
     	
     	mode.addAttribute("testparam", "hi boot..");
     	mode.addAttribute("params1","最坑的框架，spring boot");
     	return "login";
     }
-  
+    @RequestMapping("/goIndex")
+    public String ViewIndex(Model mode,Model mode2){
+    	
+    	mode.addAttribute("param1", "药药切克闹");
+    	mode2.addAttribute("param2","测试页");
+    	return "goIndex";
+    }
     public static void main(String[] args) {   
         
         SpringApplication.run(index.class,args);   

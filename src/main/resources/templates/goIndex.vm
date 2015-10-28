@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+	</head>
+	<body>
+		${param1}<br>
+		${param2}
+		<br>
+		#set($people="小朋友")
+    	<h5>$people</h5>
+	</body>
+</html>
