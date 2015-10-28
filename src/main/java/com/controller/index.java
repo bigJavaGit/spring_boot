@@ -65,7 +65,7 @@ public class index {
     public String ViewIndex(Model mode,Model mode2){
     	
     	mode.addAttribute("param1", "药药切克闹");
-    	mode2.addAttribute("param2","aaa测试页");
+    	mode2.addAttribute("param2","aaa测试页22222");
     	return "goIndex";
     }
     public static void main(String[] args) {   
