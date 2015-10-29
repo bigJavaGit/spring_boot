@@ -54,7 +54,7 @@ public class index {
 
         return "index";
 }
-    @RequestMapping("/login")
+    @RequestMapping("/login") 
     public String ViewLogin(Model mode,Model mode2){
     	
     	mode.addAttribute("testparam", "hi boot..");
